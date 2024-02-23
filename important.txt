@@ -1,0 +1,57 @@
+//package or module --- same thing
+
+// core modules (global -- need not import)
+// non global modules - requires import
+// NEVER DELETE PACKAGAE.JSON
+
+
+// NODEJS - SINGLE THREADED
+// (EK TIME MA EKI COMMAND RUN KARTA HAI)
+
+//IF node_modules get deleted... run
+// npm install (re-installs all the previously installed modules)
+
+//to not upload modules in github, use ".gitignore"
+//use npm install and all the modules will be imported
+
+//nodemon continously runs nodejs project 
+//automatically runs
+
+//node js is async language
+
+
+//to get -- request
+//to send -- response
+
+//It's good to know different types of server numbers
+//such as: 200 for Ok
+//201 for created
+//400 for internal server error and the list goes on
+//404 - when url doesn't actually match
+// 200 Document deleted successfully
+// 404 Document not found
+// 500 Internal Server Error
+
+//u can view all of this error in POSTMAN
+
+//buffer is temporary file l ocation
+
+// promise is used to wait the execution of tasks 
+// so that it can be executed later.
+
+//template engine for dynamic pages
+//whenever we create template engine, we
+//create 'views' named folder (Default requirement)
+
+//one must make database connection template in 
+//a seperate page
+//get, post, put and delete
+//Put for updation
+
+//mongoose and mongodb are different
+// mongose - advanced, validation, schema, field control
+//mongodb = time consuming for above tasks
+
+//schema validates data field
+
+//different model or schema needs for different collections

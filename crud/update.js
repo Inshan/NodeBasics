@@ -1,0 +1,16 @@
+const dbConnect = require('../mongodb')
+
+const updateData = async () => {
+    let data = await dbConnect();
+    let result = await data.updateMany(
+        {
+            name: 'Redmi 5'
+        },
+        {
+            $set: { name: 'Redmi 10' }
+        }
+    )
+    console.log('Record Updated:', result)
+}
+
+updateData();
